@@ -1,0 +1,74 @@
+.main-header-title {
+    width: 60%;
+    max-width: 800px;
+    height: 18%;
+    position: absolute;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.41);
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.main-header-title .text {
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--text-white);
+}
+
+
+.main-introduce {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.introduce-header {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #eee;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduce-header .text {
+    width: var(--max-with-content);
+    max-width: 100%;
+    font-size: 1.8rem;
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.introduce-content {
+    width: var(--max-with-content);
+    max-width: 100%;
+}
+
+
+.introduce-text1 {
+    font-size: 1.6rem;
+    color: var(--text-black);
+    margin-bottom: 20px;
+}
+
+
+.introduce-option {
+}
+
+.introduce-option li {
+    margin:  0 0 9px 20px;
+    font-size: 1.6rem;
+    color: var(--text-black);
+}

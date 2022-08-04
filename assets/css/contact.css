@@ -1,0 +1,30 @@
+.contact-content {
+    width: var(--max-with-content);
+    max-width: 100%;
+}
+
+
+.contact-input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 6px 20px;
+    font-size: 1.5rem;
+    border: 1px solid rgb(226, 226, 226);
+    outline: none;
+}
+
+.contact-input:focus {
+    box-shadow: 1px 1px 3px 4px rgb(235, 235, 235);
+}
+
+.full-input {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.contact-content button {
+    height: 40px;
+}
