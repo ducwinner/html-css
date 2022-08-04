@@ -47,6 +47,10 @@
     font-size: 1.8rem;
 }
 
+.introduce-header .text a {
+    color: var(--text-black);
+}
+
 .active {
     color: var(--primary-color);
 }
